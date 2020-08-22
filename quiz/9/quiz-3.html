@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>CSS3 트랜스폼과 트랜지션</title>
+	<style>	
+	.photo {	
+        margin-top:50px;	
+	    margin-left:100px;
+	}
+	.photo:hover{
+		transition: all 1s;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		transform: scale(1.5);
+		-webkit-transform: scale(1.5);
+		-moz-transform: scale(1.5);
+		transform-origin: left top;
+		-webkit-transform-origin: left top;
+		-moz-webkit-transform-origin: left top;
+		box-shadow: 5px 3px 5px black;
+	}
+	</style>
+</head>
+<body>
+	<img src="https://ii1.pepperfry.com/media/catalog/product/s/t/1100x1210/stripped-shade-wooden-table-lamp-by-the-light-house-stripped-shade-wooden-table-lamp-by-the-light-ho-k1jtnv.jpg" width="300px" class="photo">	
+</body>
+</html>
